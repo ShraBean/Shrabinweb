@@ -1,310 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shrabin Maharjan — UI/UX Designer</title>
-<meta name="description" content="Hi, I'm Shrabin! A UI/UX designer based in Kathmandu, specializing in end-to-end product design — research, wireframes, and visual design that ship.">
-<link rel="stylesheet" href="styles/main.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shrabin – UI/UX Designer</title>
+<meta name="description" content="Shrabin – UI/UX designer portfolio: case studies and graphic work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-
-<!-- ============ NAV ============ -->
-<header class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="#top" class="nav-logo">
-      <img src="assets/icons/logo.svg" alt="" class="icon">
-      Shrabin
-    </a>
-    <nav class="nav-links">
-      <a href="#work">Work</a>
-      <a href="#more-work">More Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+<div style="width:100%;background:#fff">
+  <header style="position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid #ececec;display:flex;align-items:center;justify-content:space-between;padding:12px 5vw;flex-wrap:wrap;gap:8px">
+    <a href="#top" aria-label="Shrabin M home" style="display:flex;display:flex;align-items:center;min-height:44px"><img src="images/logo.png" alt="" style="height:44px;width:auto;display:block"></a>
+    <nav class="nav" aria-label="Main" style="display:flex;gap:8px">
+      <a href="#about" style="background:#FCEEE8;color:#1F6FBF">About me</a>
+      <a href="#case-studies">Case studies</a>
+      <a href="resume.html">Resume</a>
     </nav>
-    <a href="#contact" class="nav-cta">Say hello</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu">
-      <img src="assets/icons/menu.svg" alt="" class="icon">
-    </button>
-  </div>
-</header>
+  </header>
 
-<div class="mobile-menu" id="mobileMenu">
-  <button class="nav-toggle" id="navClose" style="position:absolute; top:22px; right:24px;">
-    <img src="assets/icons/close.svg" alt="" class="icon">
-  </button>
-  <a href="#work">Work</a>
-  <a href="#more-work">More Work</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <a href="#contact" class="btn btn-primary">Say hello</a>
-</div>
+  <section id="about" style="max-width:1200px;margin:0 auto;padding:96px 5vw 96px;box-sizing:border-box">
+    <div class="hero">
+      <div>
+        <h1 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:48px;margin:0 0 24px;line-height:1.1">Hi, I'm <span style="color:#1F6FBF">Shrabin!</span></h1>
+        <p style="font-size:20px;line-height:1.6;color:#4a4f57;margin:0;max-width:460px">UI/UX Designer. I design end-to-end digital products, from research and wireframes to polished interfaces — with six years spent turning fuzzy ideas into things people actually enjoy using.</p>
+      </div>
+      <img src="images/hero.jpg" alt="Shrabin with floating project cards" style="width:100%;max-width:560px;height:auto;justify-self:center;display:block">
+      </div>
+    </section></div>
+  
 
-<!-- ============ HERO ============ -->
-<section class="hero" id="top">
-  <div class="wrap hero-grid">
-    <div class="reveal in">
-      <div class="hero-eyebrow"><span class="dot"></span>Available for select freelance work · Kathmandu, Nepal</div>
-      <h1>Hi, I'm <em>Shrabin.</em><br>UI/UX Designer.</h1>
-      <p class="hero-sub">I design end-to-end digital products — from research and wireframes to polished interfaces — with six years spent turning fuzzy ideas into things people actually enjoy using.</p>
-      <div class="hero-actions">
-        <a href="#work" class="btn btn-primary">View Selected Work</a>
-        <a href="mailto:shrabin.05@gmail.com" class="btn btn-ghost">
-          <img src="assets/icons/mail.svg" class="icon sm" alt="">
-          Say Hello
-        </a>
+  <section id="case-studies" style="background:#E8EFFB;padding:80px 5vw">
+    <div style="max-width: 1200px; margin: 0 auto; width: 934px">
+      <h2 class="h2" style="margin-bottom:48px">Case Studies</h2>
+      <div class="grid2">
+        
+        <a href="rentica.html" class="card"><img class="shot" src="images/card-rentica.jpg" alt="Rentica web app"><div style="padding:28px"><h3>Rentica</h3><p>Sustainable peer-to-peer product sharing</p></div></a>
+        <a href="oi-avatar.html" class="card"><img class="shot" src="images/card-avatar.jpg" alt="AI Avatar app"><div style="padding:28px"><h3>AI Avatar</h3><p>Turn yourself into an English-speaking digital avatar in minutes</p></div></a>
+        <a href="yumnum.html" class="card"><img class="shot" src="images/card-yumnum.jpg" alt="YumNum screen designs"><div style="padding:28px"><h3>YumNum</h3><p>End to end Social platform app for beginners cook lovers</p></div></a><a href="teddy-ai.html" class="card"><img class="shot" src="images/card-teddy.jpg" alt="Teddy AI app"><div style="padding:28px"><h3>Teddy AI</h3><p>All-in-one learning and teaching ecosystem for disabled youth</p></div></a>
       </div>
-      <div class="hero-stats">
-        <div><span class="num">6+</span><span class="label">Years Experience</span></div>
-        <div><span class="num">15+</span><span class="label">Products Shipped</span></div>
-        <div><span class="num">4</span><span class="label">Companies</span></div>
-      </div>
+      <div style="display:flex;justify-content:center;gap:8px;margin-top:40px" aria-hidden="true"><span style="width:8px;height:8px;border-radius:50%;background:#1F6FBF"></span><span style="width:8px;height:8px;border-radius:50%;background:#C3D2EA"></span></div>
     </div>
-    <div class="hero-portrait reveal in">
-      <img src="assets/images/profile.png" alt="Shrabin Maharjan">
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- ============ WORK ============ -->
-<section class="section-pad" id="work">
-  <div class="wrap">
-    <div class="eyebrow">01 — Selected Work</div>
-    <h2 class="section-title reveal">Case studies, from research to shipped screens.</h2>
-    <p class="section-lede reveal">A mix of client and product work — spanning e-commerce, ed-tech, and web3 — where I owned the process end to end.</p>
+  <section id="resume" style="max-width:1200px;margin:0 auto;padding:80px 5vw;box-sizing:border-box">
+    <h2 class="h2" style="margin-bottom:48px">Other Graphic Hub</h2>
+    <img src="images/graphic-hub.jpg" alt="Other graphic work: icon set, 140 Pizza & Noodles packaging, BrillTech branding, Sewika logo, Himalaya Craft brochure and Resume Assistant screens" style="display:block;width:100%;height:auto">
+  </section>
 
-    <div class="work-list">
-
-      <!-- Rentica -->
-      <div class="case-row reveal">
-        <div class="case-media tall">
-          <img src="assets/images/rentica.jpg" alt="Rentica peer-to-peer rental marketplace">
-        </div>
-        <div class="case-copy">
-          <div class="case-kicker">Web Application · 2019</div>
-          <div class="case-tags">
-            <span class="tag">Research</span>
-            <span class="tag">Competitor Analysis</span>
-            <span class="tag">Wireframes</span>
-            <span class="tag">Visual Design</span>
-          </div>
-          <h3>Rentica</h3>
-          <p>A peer-to-peer rental marketplace that makes connections through community — letting neighbours rent everyday items to one another instead of buying new. I led discovery through visual design across an 8-week sprint, benchmarking against Rentomojo and CityFurnish along the way.</p>
-          <a href="#" class="case-link" onclick="return false;">See Case Study <img src="assets/icons/arrow-up-right.svg" class="icon sm" alt=""></a>
-        </div>
-      </div>
-
-      <!-- Teddy AI -->
-      <div class="case-row reverse reveal">
-        <div class="case-media">
-          <img src="assets/images/teddy-ai.jpg" alt="Teddy AI learning app landing page">
-        </div>
-        <div class="case-copy">
-          <div class="case-kicker">Landing Page · Ed-tech</div>
-          <div class="case-tags">
-            <span class="tag">UX/UI</span>
-            <span class="tag">Character Direction</span>
-            <span class="tag">Conversion Design</span>
-          </div>
-          <h3>Teddy AI</h3>
-          <p>A friendly, character-led landing page for a study companion app aimed at kids under 5. Teddy speaks directly to visitors in the hero, four learning worlds read as tappable islands, and one clear download CTA does all the work.</p>
-          <a href="#" class="case-link" onclick="return false;">See Case Study <img src="assets/icons/arrow-up-right.svg" class="icon sm" alt=""></a>
-        </div>
-      </div>
-
-      <!-- Endless Domains -->
-      <div class="case-row reveal">
-        <div class="case-media">
-          <img src="assets/images/endless-domains.jpg" alt="Endless Domains web3 landing page">
-        </div>
-        <div class="case-copy">
-          <div class="case-kicker">Landing Page · Web3</div>
-          <div class="case-tags">
-            <span class="tag">UX/UI</span>
-            <span class="tag">Branding</span>
-            <span class="tag">Visual Identity</span>
-          </div>
-          <h3>Endless Domains</h3>
-          <p>Marketing page for a decentralised, web3 domain-name service. The brief was trust and clarity first — a technical, unfamiliar product explained in one scroll, anchored by a calm navy palette and a single confident CTA.</p>
-          <a href="#" class="case-link" onclick="return false;">See Case Study <img src="assets/icons/arrow-up-right.svg" class="icon sm" alt=""></a>
-        </div>
-      </div>
-
-      <!-- Yum Num -->
-      <div class="case-row reverse reveal">
-        <div class="case-media">
-          <img src="assets/images/yum-num.jpg" alt="Yum Num food recipe app">
-        </div>
-        <div class="case-copy">
-          <div class="case-kicker">Mobile App · Android</div>
-          <div class="case-tags">
-            <span class="tag">UX/UI</span>
-            <span class="tag">Mobile</span>
-            <span class="tag">Prototyping</span>
-          </div>
-          <h3>Yum Num</h3>
-          <p>A food recipe app concept for sharing dishes and connecting home cooks worldwide — browsing, exploring, and a step-by-step recipe player with ingredient checklists and built-in video guidance.</p>
-          <a href="#" class="case-link" onclick="return false;">See Case Study <img src="assets/icons/arrow-up-right.svg" class="icon sm" alt=""></a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============ MORE WORK / GALLERY ============ -->
-<section class="section-pad" id="more-work" style="border-top:1px solid var(--line-soft);">
-  <div class="wrap">
-    <div class="eyebrow">02 — More Work</div>
-    <h2 class="section-title reveal">Branding, print, and the smaller things.</h2>
-    <p class="section-lede reveal">Logo design, brand collateral, and a small icon system — the kind of work that rounds out a product designer's range.</p>
-
-    <div class="gallery-grid reveal">
-      <div class="gitem g-a">
-        <img src="assets/images/branding.jpg" alt="Startup logo design — 140 Pizza & Noodles, BrillTech, sewika">
-        <span class="gtag">Logo Design</span>
-      </div>
-      <div class="gitem g-b">
-        <img src="assets/images/himalaya-craft.jpg" alt="Himalaya Craft brochure design">
-        <span class="gtag">Print Collateral</span>
-      </div>
-      <div class="gitem g-c">
-        <img src="assets/images/icon-set.jpg" alt="24pixels icon set">
-        <span class="gtag">Icon System</span>
-      </div>
-      <div class="gitem g-d">
-        <img src="assets/images/rentica.jpg" alt="Rentica visual design detail">
-        <span class="gtag">Rentica</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ ABOUT ============ -->
-<section class="section-pad" id="about" style="border-top:1px solid var(--line-soft);">
-  <div class="wrap">
-    <div class="eyebrow">03 — About</div>
-    <h2 class="section-title reveal">A curious designer who likes solving other people's problems.</h2>
-
-    <div class="about-grid">
-      <div class="about-portrait reveal">
-        <img src="assets/images/profile.png" alt="Shrabin Maharjan portrait">
-      </div>
-      <div class="about-copy reveal">
-        <p>Hi, I'm <strong>Shrabin</strong> — a UI/UX designer based in Kathmandu, Nepal. I'm a multidisciplinary designer with a curious mind: I enjoy meeting new people and understanding how they solve problems, and I focus on ethical, considered design that gives life to an idea digitally.</p>
-        <p>Over six years I've worked across web, mobile, e-commerce and branding — moving from research all the way through to production, picking up front-end development and motion work along the way. I lean on a background in photography and videography to bring an extra point of view into my design work.</p>
-        <p>I'm currently a <strong>UI/UX Designer at Fusemachines Nepal</strong>, and I'm always open to a good conversation about a hard product problem.</p>
-
-        <div class="skill-tags">
-          <span class="tag">Figma</span>
-          <span class="tag">Adobe XD</span>
-          <span class="tag">Photoshop</span>
-          <span class="tag">Illustrator</span>
-          <span class="tag">HTML / CSS</span>
-          <span class="tag">React</span>
-        </div>
-
-        <div class="about-facts">
-          <div><div class="fact-label">Based in</div><div class="fact-value">Kathmandu, Nepal</div></div>
-          <div><div class="fact-label">Role</div><div class="fact-value">UI/UX Designer, Fusemachines Nepal</div></div>
-          <div><div class="fact-label">Education</div><div class="fact-value">B.A. Information Management, 2018</div></div>
-          <div><div class="fact-label">Languages</div><div class="fact-value">Nepali, Newari, English, Hindi</div></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Experience timeline -->
-    <div class="timeline reveal">
-      <div class="t-row">
-        <div class="t-date">2020 — Present</div>
-        <div>
-          <div class="t-role">UI/UX Designer</div>
-          <div class="t-org">Fusemachines Nepal — Hattisar, Kathmandu</div>
-          <div class="t-desc">Web and mobile application design end to end — UX, UI, and detailed slicing for engineering handoff.</div>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-date">2019 — 2020</div>
-        <div>
-          <div class="t-role">Graphic Designer</div>
-          <div class="t-org">TreeLeaf Technology — Sankhamul, Lalitpur</div>
-          <div class="t-desc">Website and mobile app design, ad creative, logo design, infographics and photo manipulation.</div>
-        </div>
-      </div>
-      <div class="t-row">
-        <div class="t-date">2018 — 2019</div>
-        <div>
-          <div class="t-role">Graphic Designer</div>
-          <div class="t-org">Mpercept Technology — Chakupat, Lalitpur</div>
-          <div class="t-desc">Website design, ad creative, infographics, photo manipulation and video ads.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CONTACT ============ -->
-<section class="contact-band" id="contact">
-  <div class="wrap">
-    <div class="eyebrow">04 — Contact</div>
-    <h2>Let's build something <em>good.</em></h2>
-    <p>Open to senior UI/UX roles and select freelance projects.</p>
-
-    <form class="contact-form" onsubmit="return false;">
-      <div class="field">
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your name">
-      </div>
-      <div class="field">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="you@email.com">
-      </div>
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-
-    <div class="contact-direct">
-      <a href="mailto:shrabin.05@gmail.com"><img src="assets/icons/mail.svg" class="icon sm" alt="">shrabin.05@gmail.com</a>
-      <a href="tel:+9779843018355"><img src="assets/icons/phone.svg" class="icon sm" alt="">+977 984 301 8355</a>
-      <a href="#"><img src="assets/icons/location.svg" class="icon sm" alt="">Kathmandu, Nepal</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer>
-  <div class="wrap footer-inner">
-    <span>© 2026 Shrabin Maharjan</span>
-    <div class="footer-links">
-      <a href="mailto:shrabin.05@gmail.com">Email</a>
-      <a href="tel:+9779843018355">Phone</a>
-      <a href="#top">Back to top</a>
-    </div>
-  </div>
-</footer>
-
-<script>
-  // sticky nav background on scroll
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 20);
-  });
-
-  // mobile menu
-  const menu = document.getElementById('mobileMenu');
-  document.getElementById('navToggle').addEventListener('click', () => menu.classList.add('open'));
-  document.getElementById('navClose').addEventListener('click', () => menu.classList.remove('open'));
-  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
-
-  // reveal on scroll
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
-
+  <footer style="text-align:center;padding:80px 5vw 96px">
+    <p style="font-size:20px;color:#6b6f78;margin:0 0 16px">A curious designer who likes solving other people's problems.</p>
+    <h2 style="font-family:'Quicksand',sans-serif;font-weight:700;font-size:clamp(48px,9vw,96px);color:#E26A00;margin:0 0 24px;line-height:1.1">Let's connect !</h2>
+    <a href="mailto:shrabin.05@gmail.com" style="font-weight:600;font-size:18px;display:inline-block;padding:12px;min-height:44px;box-sizing:border-box">shrabin.05@gmail.com</a>
+  </footer>
 </body>
 </html>
